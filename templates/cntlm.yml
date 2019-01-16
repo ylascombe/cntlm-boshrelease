@@ -1,7 +1,7 @@
 ---
 releases:
 - name: cntlm
-  version: 1
+  version: 0+dev.3
   url: git+https://github.com/ylascombe/cntlm-boshrelease
 
 addons:
