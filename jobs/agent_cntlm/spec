@@ -6,5 +6,11 @@ templates:
 
 packages: []
 
-properties: {}
+properties:
+  cntlm_username:
+    description: CNTLM username
+    default: plop
+  cntlm_password:
+    description: CNTLM password
+    default: 3362D1A70640E5BC070DBFABCBF2AAA4
 

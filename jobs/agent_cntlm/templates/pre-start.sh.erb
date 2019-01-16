@@ -4,9 +4,9 @@ if [ ! -f /etc/cntlm.conf ]; then
     # TODO include fortunes and its dependencies as packages in the release
     apt-get install -y cntlm
     cat <<EOF > /etc/cntlm.conf
-    Username plop
+    Username <%= p('cntlm_username') %>
     Domain plop
-    PassNTLMv2 
+    PassNTLMv2 <%= p('cntlm_password') %> 
     Listen 3128
     Allow 127.0.0.1
     Deny 0/0
