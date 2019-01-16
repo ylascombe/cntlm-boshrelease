@@ -1,0 +1,11 @@
+---
+releases:
+- name: cntlm
+  version: 1
+  url: git+https://github.com/ylascombe/cntlm-boshrelease
+
+addons:
+- name: cntlm
+  jobs:
+  - name: agent_cntlm
+    release: cntlm

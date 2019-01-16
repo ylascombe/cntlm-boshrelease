@@ -1,0 +1,5 @@
+check process agent_cntlm
+  with pidfile /var/run/cntlm/cntlm.pid
+  start program "service cntlm start"
+  stop program "service cntlm stop"
+  group vcap

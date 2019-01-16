@@ -1,0 +1,10 @@
+---
+name: agent_cntlm
+
+templates:
+  pre-start.sh.erb: bin/pre-start
+
+packages: []
+
+properties: {}
+
